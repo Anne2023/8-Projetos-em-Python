@@ -24,7 +24,7 @@ class SimuladorDeDado:
     try:
         if self.eventos == 'sim' or self.eventos == 's':
             self.GegarValorDoDado()
-        elif self.eventos == 'Não' or self.eventos == 'n':
+        elif self.eventos == 'Não' or self.eventos == 'nco':
             print('Agradecemos a sua participação!')
         else:
             print('Favor digitar sim ou não')
